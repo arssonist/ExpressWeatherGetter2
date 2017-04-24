@@ -9,7 +9,7 @@ First: npm install
 
 To Run: npm start
 
-<h5>Original App </h5>
+
 
 I was able to create a simple UI where the user enters the data themselves. The input only accepts correctly spelled city names, or ip address with four decimals, i.e. 1.11.22.33 or, if you would rather the browser do it, just click the auto link.
 
