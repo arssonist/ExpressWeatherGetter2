@@ -1,9 +1,8 @@
 const express = require('express'),
-      router = express.Router()
+      router = express.Router(),
+      weatherMiddleware = require('../middlewares/weather.middleware')
 
-router.get('/', (req,res)=>{
-    res.send("Test")
-    console.log('test')
-})
+
+router.get('/', weatherMiddleware.respondWeather)
 
 module.exports = router;
